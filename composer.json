@@ -1,0 +1,26 @@
+{
+  "name": "bitocredit/laravel-gateway",
+  "autoload": {
+    "psr-4": {
+      "Bitocredit\\LaravelGateway\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "reza motahary",
+      "email": "reza.rz00980pp@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bitocredit\\LaravelGateway\\LaravelGatewayServiceProvider"
+      ],
+      "aliases": {
+        "Gateway": "Bitocredit\\LaravelGateway\\Facade"
+      }
+    }
+  }
+}

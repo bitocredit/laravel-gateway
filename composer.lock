@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cc9d43f34e46c8368f036f5c314dceed",
+    "packages": [
+        {
+            "name": "bitocredit/gateway-php",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../bitocredit-php",
+                "reference": "a4a9a6ede0b1c017c6feac0d21c66770a7e46849"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bitocredit\\PhpGateway\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "reza motahary",
+                    "email": "reza.rz00980pp@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bitocredit/gateway-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

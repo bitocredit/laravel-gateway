@@ -12,6 +12,7 @@
     }
   ],
   "require": {
+    "bitocredit/gateway-php" : "*"
   },
   "extra": {
     "laravel": {

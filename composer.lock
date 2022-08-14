@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc9d43f34e46c8368f036f5c314dceed",
+    "content-hash": "a22b89d882a4329ce29c6ce81984def3",
     "packages": [
         {
             "name": "bitocredit/gateway-php",
-            "version": "dev-main",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bitocredit/php-gateway.git",
+                "reference": "627eb3e8b146f68af9bd55bf0843b82333b14f0a"
+            },
             "dist": {
-                "type": "path",
-                "url": "../bitocredit-php",
-                "reference": "a4a9a6ede0b1c017c6feac0d21c66770a7e46849"
+                "type": "zip",
+                "url": "https://api.github.com/repos/bitocredit/php-gateway/zipball/627eb3e8b146f68af9bd55bf0843b82333b14f0a",
+                "reference": "627eb3e8b146f68af9bd55bf0843b82333b14f0a",
+                "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -23,24 +29,24 @@
                     "Bitocredit\\PhpGateway\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "reza motahary",
                     "email": "reza.rz00980pp@gmail.com"
                 }
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/bitocredit/php-gateway/issues",
+                "source": "https://github.com/bitocredit/php-gateway/tree/v1.0"
+            },
+            "time": "2022-08-14T11:29:24+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "bitocredit/gateway-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -12,7 +12,7 @@ composer require bitocredit/laravel-gateway
 publish config files with this command:
 
 ```bash
-php artisan vendor:publish --provider="Bitocredit\LaravelGateway\LaravelGatewayServiceProvider" --tag=config
+php artisan vendor:publish --provider="Bitocredit\LaravelGateway\LaravelGatewayServiceProvider"
 ```
 
 <br>

@@ -10,7 +10,7 @@ class LaravelGatewayServiceProvider extends ServiceProvider
     {
         $configPath = __DIR__ . '/../config/gateway.php';
         $publishPath = base_path('config/gateway.php');
-        $this->publishes([$configPath => $publishPath]);
+        $this->publishes([$configPath => $publishPath] , "laravelGateway");
     }
 
     public function register()

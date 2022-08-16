@@ -1,6 +1,12 @@
 {
   "name": "bitocredit/laravel-gateway",
+  "description": "A Laravel package for integrate with bitocredit API.",
   "license": "MIT",
+  "keywords": [
+    "Bitocredit",
+    "API",
+    "currency"
+  ],
   "autoload": {
     "psr-4": {
       "Bitocredit\\LaravelGateway\\": "src/"

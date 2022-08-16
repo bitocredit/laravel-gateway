@@ -1,5 +1,6 @@
 {
   "name": "bitocredit/laravel-gateway",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Bitocredit\\LaravelGateway\\": "src/"

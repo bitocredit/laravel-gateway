@@ -19,15 +19,8 @@ php artisan vendor:publish --tag=laravelGateway
 and finally add these variables to .env file: 
 
 ```dotenv
-# for production
 GATEWAY_BASE_URL=https://bitocredit.com/api/
 GATEWAY_TOKEN=YOUR_TOKEN
-
-# for tests
-GATEWAY_BASE_URL_TEST=https://bitocredit.com/api/
-GATEWAY_TOKEN_TEST=YOUR_TOKEN
-GATEWAY_TRANSACTION_TEST=
-GATEWAY_WALLET_TEST=
 ```
 <br>
 

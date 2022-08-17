@@ -19,7 +19,15 @@
     }
   ],
   "require": {
-    "bitocredit/php-gateway" : "*"
+    "bitocredit/php-gateway": "*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bitocredit\\LaravelGateway\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   },
   "extra": {
     "laravel": {

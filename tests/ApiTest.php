@@ -14,10 +14,6 @@ class ApiTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->token = config("gateway.token_test");
-        $this->baseURL_test = config("gateway.base_url_test");
-        $this->wallet = config("gateway.wallet_test");
-        $this->transaction = config("gateway.transaction_test");
         $this->api = new ApiPhp($this->baseURL_test , $this->token);
     }
 

@@ -28,7 +28,7 @@ now you can use this package like this:
 
 ```php
     use Bitocredit\LaravelGateway\Facades\Api;
-    $result = Api::createWallet("wallet_id") // replace wallet_id with your wallet id;    
+    $result = Api::createWallet("wallet_id" , "network") // replace wallet_id with your wallet id and set network type    
 ```
 
 # methods
@@ -50,7 +50,7 @@ endpoint : https://bitocredit.com/api/create/wallet/{token}
 <br>
 
 ```php
-    $result = Api::createWallet("wallet_id"); // replace wallet_id with your wallet id
+    $result = Api::createWallet("wallet_id" , "network") // replace wallet_id with your wallet id and set network type
 ```
 
 # <a id="transactioncheck">transactionCheck</a>

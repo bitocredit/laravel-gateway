@@ -1,5 +1,5 @@
-<h3 align="center" >Bitocredit Laravel Package</h3>
-<h5>This package used for integrate with bitocredit api</h5>
+<h3 align="center" ><a href="https://bitocredit.com/document/en/post/laravel" >Bitocredit Laravel Package</a></h3>
+<h5>This package used for integrate with <a href="https://bitocredit.com/" >Bitocredit</a> api</h5>
 
 # usage
 
